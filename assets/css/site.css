@@ -284,3 +284,7 @@ fieldset{border:0;padding:0;margin:0}
 .wm{white-space:nowrap}
 @media (max-width:420px){.wm{font-size:17px}.wm small{font-size:9px;letter-spacing:.18em}.brand img{width:40px;height:40px}.brand{gap:10px}}
 @media (max-width:899px){.stamp{top:auto;bottom:22px;left:22px;width:96px}.masthead .img{background-position:center 88%}}
+/* Hero photo position (Oct 14): desktop/iPad 50% 72%, iPhone upright 50% 78%, iPhone sideways 50% 70% */
+.masthead .img{background-position:50% 72%}
+@media (max-width:599px) and (orientation:portrait){.masthead .img{background-position:50% 78%}}
+@media (max-height:500px) and (orientation:landscape){.masthead .img{background-position:50% 70%}}
