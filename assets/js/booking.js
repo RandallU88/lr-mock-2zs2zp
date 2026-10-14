@@ -6,7 +6,7 @@
   var SITES = [
     { id: "one", name: "Sample Site One", type: "Primitive", photo: "primitive-tent", priced: true,
       desc: "Hardwood clearing, level tent pad. Bring your own tent.", blocked: [2, 3, 9, 10, 16, 17, 23, 30, 31, 37, 38, 44] },
-    { id: "two", name: "Sample Site Two", type: "Glamping", photo: "glamping-canvas", priced: false,
+    { id: "two", name: "Sample Site Two", type: "Glamping", photo: "tent-woods-night", priced: false,
       desc: "Canvas tent on a deck. Details set by the Camp Host.", blocked: [4, 5, 6, 12, 13, 25, 26, 33, 34, 40] },
     { id: "three", name: "Sample Site Three", type: "Cabin", photo: "cabin", priced: false,
       desc: "Small cabin in the trees. Details set by the Camp Host.", blocked: [1, 7, 8, 14, 15, 21, 22, 28, 35, 42] },
