@@ -288,3 +288,4 @@ fieldset{border:0;padding:0;margin:0}
 .masthead .img{background-position:50% 72%}
 @media (max-width:599px) and (orientation:portrait){.masthead .img{background-position:50% 78%}}
 @media (max-height:500px) and (orientation:landscape){.masthead .img{background-position:50% 70%}}
+.stamp{height:auto}
